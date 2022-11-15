@@ -4,7 +4,7 @@
 
   ## Description
   
-  This readme generator will take a series of prompts and create a new readme file for your project based on the answers.
+  This readme generator will give a series of prompt then create a new readme file for your project based on the anwers given.
   
   
   ## Table of Contents
@@ -23,17 +23,24 @@
   
   ## Installation
   
-  To install this software, simply clone this repo.
+  To install this software, clone this repo.
   
   
   ## Usage
   
-  To use this app, open the terminal and run the node command: node index.js. Once this is done, answer the prompts then your new readme file will be generated! If successful, you will receive the message "Template successfully created!" If there is an error, then you will receive an error message instead.
+  To use this app, open the terminal and run the node command: node index.js. Once this is done, answer the prompts, then your new readme file will be generated! If successful, you will receive the message "Template successfully created!" If there is an error, then you will receive an error message instead.
+
+
+  ![node screenshot](./Assets/node-screenshot.png?raw=true)
+
+
+  ![readme screenshot](./Assets/readme-screenshot.png?raw=true)
       
+
   
   ## Credits
   
-  
+  N/A
   
   
   ## License
@@ -45,12 +52,12 @@
   
   ## How to Contribute
   
-  
+  N/A
   
   
   ## Tests
   
-  
+  N/A
   
   
   ## Questions

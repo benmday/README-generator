@@ -1,10 +1,10 @@
-# dsfgdg
+# Ben's README Generator
 
-  
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Description
   
-  hsdf
+  This readme generator will take a series of prompts and create a new readme file for your project based on the answers.
   
   
   ## Table of Contents
@@ -23,17 +23,17 @@
   
   ## Installation
   
-  dghds
+  To install this software, simply clone this repo.
   
   
   ## Usage
   
-  fgfghdf
+  To use this app, open the terminal and run the node command: node index.js. Once this is done, answer the prompts then your new readme file will be generated! If successful, you will receive the message "Template successfully created!" If there is an error, then you will receive an error message instead.
       
   
   ## Credits
   
-  gddf
+  
   
   
   ## License
@@ -45,16 +45,16 @@
   
   ## How to Contribute
   
-  dfg
+  
   
   
   ## Tests
   
-  d fgdf
+  
   
   
   ## Questions
   
-  Please forward any and all questions to gd fg
+  Please forward any and all questions to benjaminmichaelday@gmail.com
   
-  GitHub username: gdf
+  GitHub username: benmday

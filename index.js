@@ -1,10 +1,7 @@
 // TODO: Include packages needed for this application
 const fs = require("fs");
 const inquirer = require("inquirer");
-const {
-  generateMarkdown,
-  renderLicenseBadge,
-} = require("./utils/generateMarkdown");
+const generateMarkdown = require("./utils/generateMarkdown");
 
 const questions = [
   {
@@ -33,7 +30,7 @@ const questions = [
     message: "Enter credits (if applicable):",
   },
   {
-    type: "checkbox",
+    type: "list",
     name: "license",
     message: "Choose a license:",
     choices: ["MIT", "Creative Commons", "Apache", "GNU GPL v3"],
@@ -96,8 +93,6 @@ function init() {
           github,
           email
         );
-
-        console.log(renderLicenseBadge(license));
 
         writeToFile("README.md", md);
       }

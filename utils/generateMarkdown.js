@@ -94,7 +94,4 @@ function generateMarkdown(
   GitHub username: ${github}`;
 }
 
-module.exports = {
-  renderLicenseBadge,
-  generateMarkdown,
-};
+module.exports = generateMarkdown;
